@@ -4,10 +4,15 @@ public class PushingBehaviour : MonoBehaviour
 {
     public Vector3 forceVector = new Vector3(0f, 0f, 10f);
 
-	void Start()
-    {
-		var rigidBody = GetComponent<Rigidbody>();
+    Rigidbody rigidBody;
 
-		rigidBody.AddForce(forceVector, ForceMode.Impulse);		
+    void Start()
+    {
+		rigidBody = GetComponent<Rigidbody>();
 	}
+
+    void Update()
+	{
+        rigidBody.AddForce(forceVector, ForceMode.Impulse);
+    }
 }
