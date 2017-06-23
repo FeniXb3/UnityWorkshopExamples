@@ -11,7 +11,8 @@ public class PushingBehaviour : MonoBehaviour
 		rigidBody = GetComponent<Rigidbody>();
 	}
 
-    void Update()
+    // Handling physics should be done in FixedUpdate, not in Update
+    void FixedUpdate()
 	{
         rigidBody.AddForce(forceVector, ForceMode.Impulse);
     }
