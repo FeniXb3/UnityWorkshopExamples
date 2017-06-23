@@ -410,7 +410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 101d03fde4bb2422baef331f47514376, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceVector: {x: 0, y: 0, z: 1}
+  forceVector: {x: 0, y: 0, z: 0.2}
 --- !u!54 &616803309
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -600,7 +600,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 101d03fde4bb2422baef331f47514376, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceVector: {x: 0, y: 0, z: 2}
+  forceVector: {x: 0, y: 0, z: 1}
 --- !u!1 &2143974373
 GameObject:
   m_ObjectHideFlags: 0

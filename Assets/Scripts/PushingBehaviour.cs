@@ -3,6 +3,7 @@
 public class PushingBehaviour : MonoBehaviour
 {
     public Vector3 forceVector = new Vector3(0f, 0f, 10f);
+    public ForceMode forceMode = ForceMode.Impulse;
 
     Rigidbody rigidBody;
 
@@ -16,7 +17,7 @@ public class PushingBehaviour : MonoBehaviour
 	{
         if(Input.GetButton("Jump"))
         {
-            rigidBody.AddForce(forceVector, ForceMode.Impulse);
+            rigidBody.AddForce(forceVector, forceMode);
         }
     }
 }
