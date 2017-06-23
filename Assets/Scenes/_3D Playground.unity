@@ -1108,6 +1108,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b64e64f29ee441f8bbff1004cbf95f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  velocityMultiplier: 3
+  rotationMultiplier: 5
 --- !u!23 &1495148332
 MeshRenderer:
   m_ObjectHideFlags: 0
