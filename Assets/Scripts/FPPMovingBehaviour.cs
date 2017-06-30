@@ -6,7 +6,9 @@ public class FPPMovingBehaviour : MonoBehaviour
 	public float rotationMultiplier = 500.0f;
     public float cameraRotationSpeed = 500.0f;
 	public bool invert;
-	[Range(-90.0f, 0.0f)]
+    [Range(-10, 10)]
+    public int blabla;
+    [Range(0.0f, 1.0f)]
 	public float minVerticalAngle = -90.0f;
 	[Range(0.0f, 90.0f)]
 	public float maxVerticalAngle = 90.0f;
